@@ -4,11 +4,11 @@ zuul:
     myProduct:
       path: /myProduct/**
       serviceId: product
-      sensitiveHeaders:
+#     sensitiveHeaders:
     # 简介写法
 #    product: /myProduct/**
   # 排除某些路由
   ignored-patterns:
 #    - /product/product/list
 #    - /myProduct/product/list
-  - /**/product/listForOrder
+    - /**/product/listForOrder
