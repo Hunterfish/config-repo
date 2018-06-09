@@ -5,6 +5,9 @@ zuul:
       path: /myProduct/**
       serviceId: product
 #     sensitiveHeaders:
+    myUser:
+      path: /myUser/**
+      serviceId: user
     # 简介写法
 #    product: /myProduct/**
   # 排除某些路由
